@@ -96,6 +96,8 @@ site-menu li {
     justify-content: space-between;
     padding-top: 150px;
     margin-bottom: 60px;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 .pickup article {
@@ -112,6 +114,8 @@ site-menu li {
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 main{
@@ -120,6 +124,7 @@ main{
 
 main article {
     margin-bottom: 80px;
+    margin: 0 auto;
 }
 
 .main-title {
@@ -130,7 +135,6 @@ main article {
 .main .main-sentence {
     padding: 10px 40px 30px 40px;
 }
-
 
 
 .sidebar {
@@ -203,6 +207,8 @@ footer .footer-content {
     justify-content: space-between;
     padding-top: 50px;
     padding-bottom: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 footer .item {
@@ -230,7 +236,7 @@ footer ul.about-list .arrow {
     color: #333;
 } 
 
-.footer ul.about-list .arrow::before {
+footer ul.about-list .arrow::before {
     content: '';
     width: 0;
     height: 0;
@@ -243,17 +249,17 @@ footer ul.about-list .arrow {
     margin-top: -6px;
   }
 
-  .footer .menu-list {
+footer .menu-list {
     border-bottom: solid  1px #777;
   }
 
-  .footer .menu-list > li {
+footer .menu-list > li {
     border-top: solid  1px #777;
     padding: 15px;
     text-align: left;
   }
 
-  .footer .copyright {
+footer .copyright {
     font-size: 0.750rem;
     text-align: center;
     padding: 10px 0;
